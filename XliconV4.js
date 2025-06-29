@@ -1,6 +1,4 @@
- 
- 
-//CODE TO HANDLE ERRORS
+ //CODE TO HANDLE ERRORS
 process.on('unhandledRejection', console.error);
 process.on('uncaughtException', console.error);
 process.setMaxListeners(500);
